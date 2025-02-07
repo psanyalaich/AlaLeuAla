@@ -11,4 +11,4 @@ Link for Ala-Leu-Ala: https://www.ebi.ac.uk/chebi/searchId.do;jsessionid=F296D1D
 We then downloaded the SDF file of it's structure and showcased it in PyMOL.
 
 The following is the structure that we saw in PyMOL:
-[alt text](/Downloads/CheBI_158283.png)
+[alt text](/CheBI_158283.png)
