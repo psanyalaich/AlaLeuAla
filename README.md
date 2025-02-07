@@ -2,6 +2,8 @@
 Design a tripeptide model (Ala-X-Ala, where X is any amino acid of your choice). Analyze the phi (φ) and psi (ψ) backbone dihedral angles, focusing on steric clashes. Construct a Ramachandran plot to visualize its stable and unstable conformational space.
 
 # Solution
+
+## Getting the desired tripeptide:
 We first went to the CHEBI database and searched for any existing tripeptides. 
 
 We found an full list of tripeptides and in that list we searched for the ones which were in the Ala-X-Ala format.
@@ -16,3 +18,9 @@ We then downloaded the SDF file of it's structure and showcased it in PyMOL.
 
 The following is the structure that we saw in PyMOL:
 ![alt text](/CheBI_158283.png)
+
+## Calculating the phi (φ) and psi (ψ) backbone dihedral angles
+-
+
+## Plotting the Ramachandran Plot of the Tripeptides
+-
