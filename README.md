@@ -13,6 +13,14 @@ Design a tripeptide model (Ala-X-Ala, where X is any amino acid of your choice).
 - The following is the structure that we saw in PyMOL:
 ![alt text](/ChEBI_158283.png)
 
+Some features of this tripeptide:
+- Formula: C12H23N3O4
+- Net Charge: 0
+- Average Mass: 273.333
+- Monoisotopic Mass: 273.16886
+- Chemical Roles: Bronsted Base
+- IUPAC Name: L-alanyl-L-leucyl-L-alanine
+
 ## Calculating the phi (φ) and psi (ψ) backbone dihedral angles
 - PyMOL>get_dihedral (resi 2 and name C), (resi 5 and name N), (resi 10 and name C), (resi 8 and name C)
  cmd.get_dihedral: 180.000 degrees.
