@@ -10,8 +10,7 @@ Design a tripeptide model (Ala-X-Ala, where X is any amino acid of your choice).
 - So the "X" amino acid is Leucine.
 - Link for Ala-Leu-Ala: [/https://www.ebi.ac.uk/chebi/searchId.do;jsessionid=F296D1D805B17192EB96C5755B09280F?chebiId=CHEBI%3A158283](https://www.ebi.ac.uk/chebi/searchId.do;jsessionid=F296D1D805B17192EB96C5755B09280F?chebiId=CHEBI%3A158283)
 - We then downloaded the SDF file of it's structure and projected it in PyMOL.
-- The following is the structure that we saw in PyMOL:
-![alt text](/ChEBI_158283.png)
+- We then visualised the structure using PyMOL: ![alt text](A-L-A.pse)
 
 Some features of this tripeptide:
 - Formula: C12H23N3O4
@@ -22,8 +21,11 @@ Some features of this tripeptide:
 - IUPAC Name: L-alanyl-L-leucyl-L-alanine
 
 ## Calculating the phi (φ) and psi (ψ) backbone dihedral angles
-- PyMOL>get_dihedral (resi 2 and name C), (resi 5 and name N), (resi 10 and name C), (resi 8 and name C)
- cmd.get_dihedral: 180.000 degrees.
+Now we construct our own Ala-Leu-Ala tripeptide on ChimeraX using various dihedral angles and secondary structures:
+- Condition 1: alpha helix --> φ = -57 degree & ψ = -47 degree --> It had no clashes
+- Condition 2: antiparalles beta-strand --> φ = -139 & ψ = 135 --> It had no clashes
+- Condition 3: paralles beta-strand --> -119 & 113 --> It had no clashes
+- Condition 4: MAN IDK IF ITS RIGHT OR WRONG AHFHWFHOFOHFWJEIHVUFIWJQPOHUFUIEFJOHINUEFJO
 
 |Residue|Backbone Atoms|
 |-|-|
