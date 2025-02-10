@@ -8,7 +8,7 @@ Design a tripeptide model (Ala-X-Ala, where X is any amino acid of your choice).
 - We found an full list of tripeptides and in that list we searched for the ones which were in the Ala-X-Ala format.
 - We finally found one that matched the format and it was Ala-Leu-Ala.
 - So the "X" amino acid is Leucine.
-- Link for [/Ala-Leu-Ala](https://pubchem.ncbi.nlm.nih.gov/compound/7016119)
+- Link for [Ala-Leu-Ala](https://pubchem.ncbi.nlm.nih.gov/compound/7016119)
 - We then downloaded the SDF file of it's structure and projected it in PyMOL.
 - We then visualised the structure using PyMOL: ![alt text](A-L-A.pse)
 
