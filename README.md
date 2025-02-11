@@ -21,10 +21,16 @@ Some features of this tripeptide:
 - Chemical Roles: Bronsted Base
 - IUPAC Name: L-alanyl-L-leucyl-L-alanine
 
-## Calculating the phi (φ) and psi (ψ) backbone dihedral angles & Plotting the Ramachandran Plot of the Tripeptides
-Now we construct our own Ala-Leu-Ala tripeptide on ChimeraX and find the angles to be: φ = -86.4526° and ψ = 143.018°
+## Calculating the phi (φ) and psi (ψ) backbone dihedral angles & Plotting the Ramachandran Plot of the Tripeptide
+Now we find the angles of the tripeptide in Chimera X using the commands:
+- torsion :1@C :2@N :2@CA :2@C
+- torsion :2@N :2@CA :2@C :3@N
 
-We then plotted the values in the ![alt test](RamChanPlot-AlaLeuAla.png)
+We get the following results:
+- Torsion angle for atoms /A ALA 1 C LEU 2 N LEU 2 CA C is -86.4526°
+- Torsion angle for atoms /A LEU 2 N LEU 2 CA C ALA 3 N is 143.018°
+
+We then plotted the values in the Ramachandran Plot: ![alt test](RamChanPlot-AlaLeuAla.png)
 
 ## Conclusion
 From the above, we can conclude that the tripeptide Ala-Leu-Ala has a Antiparallel beta sheet structure.
