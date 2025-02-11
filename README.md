@@ -11,6 +11,7 @@ Design a tripeptide model (Ala-X-Ala, where X is any amino acid of your choice).
 - Link for [Ala-Leu-Ala](https://pubchem.ncbi.nlm.nih.gov/compound/7016119)
 - We then downloaded the SDF file of it's structure and projected it in PyMOL.
 - We then visualised the structure using PyMOL: ![alt text](A-L-A.pse)
+- We also visualised it using ChimeraX and found the ![clashes](alaleuala.cxs)
 
 Some features of this tripeptide:
 - Formula: C12H23N3O4
@@ -20,20 +21,10 @@ Some features of this tripeptide:
 - Chemical Roles: Bronsted Base
 - IUPAC Name: L-alanyl-L-leucyl-L-alanine
 
-## Calculating the phi (φ) and psi (ψ) backbone dihedral angles
-Now we construct our own Ala-Leu-Ala tripeptide on ChimeraX using various dihedral angles and secondary structures:
-- Condition 1: alpha helix --> φ = -57 degree & ψ = -47 degree --> It had no clashes
-- Condition 2: antiparalles beta-strand --> φ = -139 & ψ = 135 --> It had no clashes
-- Condition 3: paralles beta-strand --> -119 & 113 --> It had no clashes
-- Condition 4: MAN IDK IF ITS RIGHT OR WRONG AHFHWFHOFOHFWJEIHVUFIWJQPOHUFUIEFJOHINUEFJO
+## Calculating the phi (φ) and psi (ψ) backbone dihedral angles & Plotting the Ramachandran Plot of the Tripeptides
+Now we construct our own Ala-Leu-Ala tripeptide on ChimeraX and find the angles to be: φ = -86.4526° and ψ = 143.018°
 
-|Residue|Backbone Atoms|
-|-|-|
-|Residue 1 (Ala)|C (2), O (3)|
-|Residue 2 (Leu)|N (5), C (7), CA (8), C (9)|
-|Residue 3 (Ala)|N (11), C (12), CA (13), C (18)|
+We then plotted the values in the ![alt test](RamChanPlot-AlaLeuAla.png)
 
-
-
-## Plotting the Ramachandran Plot of the Tripeptides
--
+## Conclusion
+From the above, we can conclude that the tripeptide Ala-Leu-Ala has a Antiparallel beta sheet structure.
