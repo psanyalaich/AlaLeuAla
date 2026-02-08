@@ -33,4 +33,4 @@ We get the following results:
 We then plotted the values in the Ramachandran Plot: ![alt test](RamChanPlot-AlaLeuAla.png)
 
 ## Conclusion
-From the above, we can conclude that the tripeptide Ala-Leu-Ala has a Antiparallel beta sheet structure.
+The φ and ψ angles of the leucine residue fall within the β-sheet–allowed region of the Ramachandran plot.
